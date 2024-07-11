@@ -1,0 +1,49 @@
+.bgimage {
+    background-image: url("/static/images/images/bgimage.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbar {
+    background-color: white;
+    width: 20rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual appeal */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    gap:1rem;
+}
+
+body {
+    margin: 0; /* Ensure no default margin on the body */
+}
+
+.form {
+    width: 100%; /* Make sure form takes full width of the login bar */
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.rbutton{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    gap:1rem;
+}
+
+.already{
+    font-size: 13px;
+}
+
+.logo{
+    width:100%
+}
