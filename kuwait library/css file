@@ -1,0 +1,1621 @@
+.logo {
+    margin-left: 20px;
+    
+}
+
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    
+}
+
+.flex-d{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.catt {
+    display: flex;
+    flex-direction: row;
+    margin-left:20rem;
+    gap:20px;
+}
+
+
+#gg {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-group {
+    flex-wrap: nowrap;
+    
+    margin-right: 3rem;
+    @media screen and (device-width: 1280px) and (device-height: 800px) and (-webkit-min-device-pixel-ratio: 2){
+        margin-right: 50px;
+    }
+}
+.input-group1 {
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+    
+    
+}
+
+
+#g2{
+    display: flex;
+   
+    flex-wrap:nowrap
+}
+.sbox .form-control {
+    width: 100%; /* allows the form-control to take full width of its parent */
+    max-width: 500px; /* adjust the max-width as needed */
+}
+
+
+
+.container{
+    display:flex;
+    flex-direction:row;
+    
+    
+    
+    flex-wrap: nowrap;
+    flex-grow:1;
+    min-width:80rem;
+    max-width:100rem;
+    
+}
+
+
+.logohead{
+
+    gap: 4.5rem;
+    
+}
+
+@media(max-width:1440px){
+    .logohead{
+        gap:6.5rem;
+
+    }
+}
+
+
+.flexxx {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+    align-items: flex-end; 
+    gap: 20px; 
+    padding: 20px; 
+    flex-direction: row;
+    
+
+    
+    
+
+    
+    
+}
+
+.form-control{
+    min-width: 340px;
+    border: solid  0.02rem black;
+    border-radius: 0;
+    
+}
+
+#sear{
+    
+    color: white;
+    
+}
+
+#button-addon2{
+
+    background-color: black;
+    border-radius: 0;
+}
+
+.calendarc{
+    display:flex;
+    flex-wrap: nowrap;
+    text-align: end;
+}
+
+.container-fluid{
+    display:flex;
+    flex-wrap:nowrap;
+    
+}
+.cc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    
+    margin-left: 0rem;
+    gap:0.3rem;
+    color: white;
+    padding: 0px;
+    margin-top: 10px;
+    
+   
+}
+
+#nav1{
+   background-color:  rgb(50, 116, 182);
+   @media  screen and (max-width:1440px) {
+    min-width: 100%; /* Adjust minimum width as needed */
+    margin-left: 0rem;
+    min-height: auto;
+    
+   }
+
+   
+   
+}
+#nav1 .nav-link {
+    color: white;
+}
+
+.collapsecontent{
+
+    margin-left: 10rem;
+}
+
+#navbarNav{
+    color: white;
+    
+    
+    min-width: 40rem;;
+    
+
+    margin-left: 0rem;
+    
+    font-size: medium;
+    background-color: rgb(50,106,182);
+
+    @media screen and (min-device-width: 1280px) and (max-device-width: 2560px) and (-webkit-min-device-pixel-ratio: 2) {
+        min-width: auto; /* Adjust minimum width as needed */
+        margin-left: 5rem; /* Adjust margin left as needed */
+    }
+}
+
+.klimg{
+    width:100%;
+    margin: 0 auto;
+    height:500px;
+    margin-left: 10rem;
+    margin-top: 0;
+
+    
+}
+@media (max-width: 1440px) {
+    .klimg {
+        max-width: 1080px; /* Ensure the image doesn't exceed its container */
+        height: 500px; /* Maintain aspect ratio */
+        display: block; /* Ensures it behaves correctly in all situations */
+        margin: 0 auto; /* Center align if needed */
+    }
+
+    .kl{
+        gap: 2rem;
+    }
+    .flexx{
+        margin-right: 22rem;
+
+    }
+
+}
+
+
+
+
+.contt{
+    display:flex;
+    flex-direction: row;
+}
+
+.h1c{
+    font-size: 4.5rem;
+    font-weight: 600;
+    
+}
+
+.infopara{
+    
+    margin-top: 2rem;
+}
+.btc{
+    display: flex;
+    gap: 0.3rem;
+}
+#bttn1{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(50, 116, 182);
+    height: 4rem;
+    border-radius: 0;
+    font-size: 15px;
+
+}
+
+#bttn2{
+    background-color: transparent;
+    color: black;
+    border: none;
+    height: 3rem;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rarrow{
+    font-size: 24px;
+}
+
+.clock{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    color: white;
+}
+.map{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    color: white;
+}
+
+#ghanta{
+    font-size: 56px;
+    
+}
+
+.coo{
+    margin-top: 14px;
+    gap:0.3rem;
+    line-height: 0.3rem;
+}
+.coom{
+    
+    margin-top: 24px;
+    gap:0.3rem;
+    
+}
+
+@media (max-width:1440px){
+    .coom{
+        gap: 0.1rem;
+    }
+}
+.pictorial{
+    display:flex;
+    flex-direction: row;
+    gap:4rem;
+    margin-left: 30rem;
+}
+
+.kheading{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.contbox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap:3rem
+}
+.contb1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    line-height: 20px;
+}
+.eventq{
+    color: rgb(39, 39, 162);
+    font-size: 20px;
+}
+.qcont{
+    font-weight: 550;
+    font-size: 20px;
+}
+.qcont2{
+    line-height: 10px;
+    font-size: 20px;
+    color: rgb(168, 167, 167);
+}
+
+.qurain-pic{
+    max-width: 100%;
+    height:200px
+    
+}
+.taghreed{
+
+    max-width: 180px; 
+    height: auto; 
+}
+
+.taghcont{
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.ansari {
+    max-width: 100%; 
+    height: auto; /* Maintains aspect ratio */
+    /* Add additional styles as needed */
+}
+
+.openans{
+    font-size: 40px;
+    font-weight: 500;
+   
+
+
+}
+.contb2{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.anspic{
+    font-size: 24px;
+    color: rgb(39, 39, 162);
+    margin-left: 250px;
+    
+    
+
+}
+.recommend{
+    font-size: 20px;
+    color: rgb(168, 167, 167);
+    font-weight: 300;
+
+}
+
+.contb3{
+    margin-right: 40px;
+    justify-content: center;
+}
+
+.itl1{
+    display: flex;
+    flex-direction: row;
+    gap:0.3rem
+}
+.itl2{
+    display: flex;
+    flex-direction: row;
+    gap:0.3rem
+    
+}
+.itl3{
+    display: flex;
+    flex-direction: row;
+    gap:0.3rem
+}
+
+.itl4{
+    display: flex;
+    flex-direction: row;
+    gap:0.3rem
+}
+
+.mincontent{
+    font-size: 20px;
+    
+}
+.minpic1{
+    width:170px;
+    height: 150px;
+    margin-right: 4px;
+
+}
+.minpic2{
+    width:173px;
+    height: 150px;
+    margin-left: 75px;
+
+}
+.minpic3{
+    width:330px;
+    height: 150px;
+
+}
+.minpic4{
+    width:173px;
+    height: 150px;
+    margin-left: 25px;
+
+}
+
+.fcl{
+    display: flex;
+    flex-direction: column;
+    line-height: 1rem;
+    margin-left: 180px;
+}
+@media(max-width:1440px){
+    .fcl{
+        margin-left: 50px;
+    }
+}
+
+.wmask{
+    display: flex;
+    flex-direction: column;
+}
+.notwmask{
+    display: flex;
+    flex-direction: column;
+}
+.btitle{
+    font-weight: 500;
+
+}
+
+.aname{
+    font-weight: 300;
+    color: rgb(156, 152, 152);
+
+}
+.sideimage{
+    width: 200px;
+    height: 400px;
+}
+.sideimage2{
+    width: 190px;
+    height: 250px;
+}
+
+.sideimage3{
+    width: 100px;
+    height: 60px;
+}
+
+.sectiongray{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(244, 241, 241);
+    gap: 5rem;
+}
+
+.artitle{
+    font-weight: 500;
+    font-size: 50px;
+    margin-left: 11rem;
+}
+
+@media(max-width:1440px){
+    .artitle{
+        font-size:36px;
+        
+        margin-left: 6px;
+    }
+}
+
+.maincl{
+    display: flex;
+    flex-direction: column;
+}
+
+.colll3{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.tahah{
+    height: 600px;
+    width: 400px;
+}
+
+.atspace{
+    line-height: 1rem;
+}
+
+.thussein{
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 80px;
+}
+.tauthor{
+    font-weight: 300;
+    color: rgb(156, 152, 152);
+    margin-left: 100px;
+
+}
+
+.tcol{
+    display:flex;
+    flex-direction: column;
+}
+
+@media(max-width:1440px){
+    .tcol{
+        margin-right: 20px;
+    }
+}
+
+.querycont{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    height: 40rem;
+   
+    
+    
+    background: linear-gradient(to bottom, black 80%, white 20%);
+    
+    
+}
+
+.howwe{
+    font-weight: 600;
+    color: white;
+    
+    
+    margin-left: 10rem;
+    font-size: 40px;
+    margin-top: 4rem;
+    
+    
+    padding: 2rem;
+    
+}
+
+.infomatics{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 7rem;
+    
+    overflow-x: auto;
+    
+}
+#scroll-indicator {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    background-color: #007bff; /* Change color as needed */
+    width: 0;
+    transition: width 0.25s;
+}
+.rair{
+    display: flex;
+    
+    flex-direction: column;
+    background-color: rgb(244, 241, 241);
+    
+    width: 20rem;
+    padding:1rem;
+    margin-left: 18rem;
+  
+    
+}
+.dir{
+    display: flex;
+    
+    flex-direction: column;
+    background-color: rgb(244, 241, 241);
+    
+    width: 20rem;
+    padding:0.5rem;
+    margin-left: 18rem;
+    
+}
+.rld{
+    display: flex;
+    
+    flex-direction: column;
+    background-color: rgb(244, 241, 241);
+    
+    width: 20rem;
+    padding:0.5rem;
+    margin-left: 18rem;
+    
+}
+.award{
+    display: flex;
+    
+    flex-direction: column;
+    background-color: rgb(244, 241, 241);
+    
+    width: 20rem;
+    padding:0.5rem;
+    margin-left: 18rem;
+    
+}
+
+
+#rairicon{
+    font-size: 3rem;
+    
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-align: center;
+    border: solid black;
+    border-radius:80%;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+.infotitle{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10rem;
+}
+
+.infocontent{
+    color: rgb(132, 129, 129);
+    
+
+}
+
+.icontainer{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(244, 241, 241);
+    gap:14rem;
+    margin-top: rem;
+}
+
+.icl1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+.icl2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.icl3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.logoo1{
+    background-color:  rgb(244, 241, 241);
+}
+
+.clheading{
+    font-size: 27px;
+    font-weight: 600px;
+    font-weight: bolder;
+    
+}
+
+.ilist{
+    color: rgb(132, 129, 129);
+    font-size: 18px;
+
+
+}
+.subs1{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    
+}
+.ke{
+    width: 8rem;
+    height: 8rem;
+}
+
+.newkuw{
+    width: 8rem;
+    height: 8rem;
+
+}
+
+.socialicons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+.sicon{
+    margin-top: 5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.sicon1{
+    margin-top:5rem;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+}
+.sicon2{
+    margin-top: 4.9rem;
+    width: 2.7em;
+    height: 2.7rem;
+    border-radius: 50%;
+}
+.sicon3{
+    margin-top: 4.8rem;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 70%;
+}
+
+.cop1::after{
+    content: "\00A9 ";
+
+}
+
+.fhalf{
+    display: flex;
+    flex-direction: row;
+
+    color:rgb(132, 129, 129);
+    margin-left: 10rem;
+   
+}
+
+.lastsection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.shalf{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    color: black;
+    margin-left: 60rem;
+    
+}
+
+#dropdownMenu2{
+    font-size:1.5rem ;
+    font-weight: 400;
+}
+
+.body{
+    font-family: 'Futura-PT', sans-serif;
+    direction:rtl
+}
+
+.rair,.dir,.rld,.award{
+    margin-left: 18rem;
+    
+}
+
+/* Styles for 11-inch MacBook Air */
+
+
+/* Styles for 13-inch MacBook Air and Pro */
+@media (max-width:1440px) {
+    .contbox {
+        gap: 25px;
+        padding: 15px;
+        margin-right: 40px;
+        font-size: 14px;
+    }
+
+    .sectiongray{
+        gap: 1rem;
+        
+        font-size: 14px;
+    }
+    .piccollab {
+        padding: 0 15px; /* Adjust container padding for MacBook screens */
+    }
+    
+    .fcl{
+
+    }
+
+
+    
+    
+}
+@media (max-width: 1440px) and (min-width:1280px) {
+    .piccollab {
+         /* Adjust padding as needed */
+         gap: 3rem;
+        
+    }
+    .sectiongray{
+        gap:2rem
+    }
+    .piccollab img{
+        max-width: 100%; /* Ensures images do not exceed container width */
+        height: auto;
+        gap:1rem;
+    }
+    .sectiongray img {
+        max-width: 100%; /* Ensures images do not exceed container width */
+        height: auto; /* Maintains aspect ratio */
+        
+    }
+
+    .sideimage2,
+    .tahah {
+        max-width: 100%; /* Adjust this percentage based on how much you want to scale down */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .icontainer{
+        gap:6rem;
+    }
+    .fhalf{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+        width: 50rem
+    }
+    .shalf{
+        margin-left: 25rem;
+    }
+    
+    
+
+    
+
+
+    
+}
+
+
+
+@media  (max-width:768px){
+
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .logohead {
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+        padding: 10px;
+    }
+
+    .flexxx {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        gap:1rem;
+    }
+
+    .input-group,
+    .input-group1 {
+        width: 90%;
+        margin-top: 1px; /* Reduce the margin to decrease the gap */
+        margin-bottom: 5px; /* Reduce the margin to decrease the gap */
+    }
+    
+
+    .input-group .dropdown-toggle,
+    .input-group1 .dropdown-toggle,
+    .input-group-text,
+    .input-group1 input,
+    .input-group1 button {
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+    .flexxx .input-group,
+    .flexxx .input-group1 {
+        margin-bottom: 10px;
+    }
+    .input-group1{
+        width:25%;
+    }
+
+    .librarypic{
+        width: 22rem !important;
+    }
+    .infopara{
+        width: 100%;
+    }
+
+    .cc{
+       
+    }
+    .kl{
+        display:flex;
+        flex-direction: column;
+        width:25%;
+        margin-right: 40rem;
+        left:-20px;
+        
+        justify-content: flex-start;
+        text-align: left;
+        
+        
+    }
+    .carousel-slide{
+        width:25%;
+        margin-right: 10rem;
+    }
+    
+    .infopara{
+        width:30%;
+    }
+
+    .pictorial{
+       display: flex;
+       flex-direction: column;
+       gap:1rem;
+       margin-left:0;
+    }
+    .contbox{
+        display:flex;
+        flex-direction: column;
+    }
+    .openans{
+        font-size: 20px;
+    }
+    
+    .piccollab{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .colll3{
+        display: flex;
+        flex-direction: column;
+    }
+    .artitle{
+        display: flex;
+        font-size: 20px;
+    }
+
+    .infomatics{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 7rem;
+       
+    }
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+
+    .querycont{
+        display: flex;
+        flex-direction: column;
+        height:auto
+    }
+
+    .howwe{
+        font-weight: 600;
+        color: white;
+        margin-left: 2rem;
+        font-size: 40px;
+        margin-top: 2rem;
+
+    }
+
+    .tahah{
+        width: 20rem;
+        margin-right: 40px;
+    }
+    .fcl{
+        margin-left: 0;
+    }
+    .rair {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(244, 241, 241);
+        width: 20rem;
+        /* padding: 1rem; */
+        margin-left: 0;
+    }
+
+    .icontainer{
+
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(244, 241, 241);
+        gap: 5rem;
+        margin-top: 2rem;
+    }
+    .icl1{
+        margin-left: 1rem;
+    }
+    .icl2{
+        margin-left: 1rem;
+    }
+    .icl3{
+        margin-left: 1rem;
+    }
+    .lastsection{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .fhalf{
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: row;
+        width: 50rem;
+        font-size: 10px;
+        
+    }
+
+    .shalf{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .copyright{
+        display: flex;
+        flex-direction: row;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        /* bottom: 0; */
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-top: 10rem !important;
+    }
+
+}
+
+
+@media(max-width:375px){
+    .form-control{
+        min-width: 290px;
+    }
+    
+    #gg{
+        gap:1rem;
+    }
+    .input-group .dropdown-toggle, .input-group1 .dropdown-toggle, .input-group-text, .input-group1 input, .input-group1 button {
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+    
+
+    .h1c{
+        font-size: 30px !important;
+        width: 23rem;
+    }
+    .kl{
+        margin-right: 20rem;
+        width: 100%;
+        
+    }
+    .rarrow{
+        font-size: 20px;
+    }
+    .btttn2{
+        font-size: 15px;
+        margin-bottom: 20px;
+        
+    }
+
+    #btttn1{
+        height: 4rem !important;
+    }
+    .p-5{
+        padding: 1rem !important;
+    }
+    
+    .carousel-slide{
+        display: flex;
+    }
+
+    .khistory{
+        width: 18rem;
+    }
+    .kheading{
+        font-size: 40px;
+        margin-left: 0;
+    }
+    .anspic{
+        margin-left: 8rem;
+    }
+
+    .rair,.dir,.rld,.award{
+        width: 70%;
+        margin-left: 3rem;
+        height: 24rem;
+    }
+    .rair{
+        width: 75%;
+    }
+
+    .carousel-indicators{
+        top:none;
+        margin-top: none;
+
+    }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    
+    .carousel-control-prev-icon {
+        
+    }
+
+    .kheading{
+        font-size: 30px;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .minpic1{
+        margin-left: 8rem;
+    }
+    .minpic2,.minpic3{
+        margin-left: 8rem;
+        width:15rem;
+        height: 150px;
+        
+    }
+
+    .minpic4{
+        margin-left: 8rem;
+
+    }
+
+    .adjpara{
+        display: flex;
+        flex-direction: row;
+    }
+    .mincontent{
+        display: flex;
+        flex-direction: row;
+        width:150px
+    }
+    .qcont2{
+        line-height: 20px;
+    }
+
+    .anspic{
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .logoo1{
+        width: 60%;
+    }
+    #dropdownMenu2{
+        margin-bottom: 15rem;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+        margin-right:20rem ;
+        width: 30rem;
+    }
+    .shalf{
+        margin-left: 5px;
+    }
+  }
+
+  /* ipad air and pro */
+
+  @media (width: 820px) and (orientation: portrait) {
+
+    
+    .logohead{
+        display:flex;
+        flex-direction: column;
+        gap:3rem;
+    }
+
+    .logo{
+        margin-left: 15rem;
+    }
+
+    .flexxx{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-group{
+        margin-right: 0;
+    }
+    .srcbar{
+        margin-right: 51.5rem;
+    }
+
+    .kl{
+        width:55rem;
+        margin-left: 0.2rem;
+        margin-bottom: 3rem;
+    }
+    .h1c{
+        font-size: 60px;
+    }
+    .p-5{
+        padding: 1rem !important;
+    }
+    .btc{
+        height:15px;
+        margin-bottom: 2rem;
+    }
+
+    .btttn2{
+        margin-bottom: 3rem;
+    }
+    .btttn1{
+        margin-top: 1rem;
+        text-align: center;
+        height: 4rem !important;
+        font-size: 10px;
+    }
+    .carousel-indicators{
+        margin-top: 1rem;
+    }
+
+    .cc{
+        text-align: left;
+        margin-right: 0rem;
+        
+    }
+
+    .pictorial{
+        margin-left: 1rem;
+    }
+
+    .rair{
+        margin-left: 20rem;
+
+    }
+    #rairicon{
+        border-radius: 50%;
+        font-size: 2.5rem;
+        padding: 5px;
+    }
+    .contbox{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .openans{
+        font-size: 40px;
+    }
+
+    .piccollab{
+        flex-direction: column;
+    }
+
+    .icl1{
+        margin-left: 1rem;
+    }
+    .icl2{
+        margin-right: 10px;
+    }
+    .icontainer{
+        gap: 2.5rem;
+    }
+
+    .cl1{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        
+        
+    }
+    .qurain-pic{
+        max-width: none;
+        width:20rem;
+    }
+
+    .taghreed{
+        width:20rem;
+        max-width: none;
+    }
+
+    .openans{
+        font-size: 30px;
+        width:50rem;
+    }
+
+    .mincontent{
+        width: 240px;
+        margin-left: 80px;
+    }
+
+    .fcl{
+        flex-direction: row;
+        gap:5rem;
+        height: 26rem;
+        width:40rem
+    }
+
+    .gofsun{
+        height:5rem;
+    }
+    .tcol{
+        flex-direction: row;
+        height: 30rem;
+        width: 30rem;
+        gap:5rem;
+        margin-left: 80px;
+    }
+    .ansari{
+        max-width: none;
+        max-width: 40rem;
+        margin-left: 40px;
+    }
+
+    .rld{
+        margin-left: 15rem;
+    }
+    .dir{
+        margin-left: 15rem;
+    }
+
+    .award{
+        margin-left: 15rem;
+    }
+    .rair{
+        margin-left: 15rem;
+    }
+
+    .flexxx{
+        flex-direction: row;
+    }
+  }
+
+  @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1){
+    .logohead{
+        width: 80%;
+        gap:3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        margin-left: 20rem;
+    }
+    .flexxx{
+        gap: 1rem;
+    }
+
+
+    
+  }
+
+
+.navbar-toggler{
+    border: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active, 
+.navbar-toggler-icon:focus{
+    outline:none;
+    box-shadow:none;
+    border:solid black;
+}
+
+.toggler-icon{
+    width:30px;
+    height:3px;
+    background-color: black;
+    display: block;
+    transition: all 0.2s;
+    gap:5px
+}
+
+
+
+  @media screen and (min-width:1024px) and (max-width:1366px){
+    .logohead{
+        flex-direction: column;
+    }
+    .flexxx{
+        gap:3rem;
+        width: 60%;
+    }
+
+    .pictorial{
+        margin-left: 3rem;
+    }
+    .contbox{
+        flex-direction: column;
+    }
+    .cl1{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        
+        
+    }
+    .qurain-pic{
+        max-width: none;
+        width:20rem;
+    }
+
+    .taghreed{
+        width:20rem;
+        max-width: none;
+    }
+    .openans{
+        font-size: 30px;
+        width:50rem;
+    }
+
+    .mincontent{
+        width: 240px;
+        margin-left: 80px;
+    }
+
+    
+
+    .gofsun{
+        height:5rem;
+    }
+    .tcol{
+        flex-direction: row;
+        height: 30rem;
+        width: 30rem;
+        gap:5rem;
+        margin-left: 80px;
+    }
+    .ansari{
+        max-width: none;
+        max-width: 40rem;
+        margin-left: 40px;
+    }
+
+    .fcl{
+        flex-direction: row;
+        gap: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 7rem;
+    }
+
+    .piccollab{
+        flex-direction: column;
+    }
+
+    .artitle{
+        margin-left: 10rem;
+    }
+
+    .rair,.rld,.dir,.award{
+        margin-left: 20rem;
+    }
+
+    .icontainer{
+        gap:5rem;
+        
+        
+    }
+    .logohead{
+        gap:3rem;
+    }
+
+    .logo{
+        margin-left: 20rem;
+    }
+
+    .lastsection{
+        flex-direction: column;
+    }
+
+    .fhalf{
+        margin-left: 2rem;
+    }
+    .shalf{
+        margin-left: 2rem;
+    }
+
+    .navbar-expand-lg .navbar-toggler {
+        display: flex;
+
+
+  }
+
+  .cc{
+    
+    margin-top: rem;
+  }
+  
+  .anspic{
+    margin-left: 20rem;
+  }
+}
+
+@media screen and (min-device-width:390px) and (max-device-width:844px){
+    .rair,.dir,.rld,.award{
+        margin-left: 3rem !important;
+        width:75%;
+    }
+    .kl{
+        width:85%;
+    }
+    .infopara{
+        width:105%;
+        gap: 1.7rem;
+    }
+    .h1c{
+        font-size: 1.8rem;
+    
+    }
+
+    #bttn1{
+        width: 7rem;
+        height: 3.5rem;
+    }
+    #bttn2{
+        width: 7rem;
+        font-size: 1rem;
+        line-height: 18px;
+    }
+    .srcbar{
+       
+    }
+    .form-control{
+        min-width: 300px;
+    }
+    .khistory{
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+/* flipping the layout */
+
+.pictorial{
+    direction: rtl;
+}
+
+.cl2{
+    direction:rtl;
+}
+  
+.contbox{
+    direction: rtl;
+}
+
+.picollab{
+    direction: rtl;
+}
+
+.rair,.dir,.rld,.award{
+    margin-left: 18rem;
+    direction: rtl;
+}
+.icontainer{
+    direction: rtl;
+    
+}
+.icl1,.icl2,.icl3{
+    margin-right: 1rem;
+}
+.khistroy{
+    direction: rtl;
+}
+
+.infopara{
+    direction:rtl;
+}
