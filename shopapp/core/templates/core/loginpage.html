@@ -19,10 +19,10 @@
                 {% csrf_token %}
                 
                 <label> Username </label>
-                <input type="text"  placeholder="Enter Username">
+                <input type="text"  placeholder="Enter Username" name="username" >
     
                 <label> Password</label>
-                <input type="password"  placeholder="Enter Password">
+                <input type="password"  placeholder="Enter Password" name="password">
     
                 <input type="submit" value="Login" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true" />
                 <a href="{% url 'register' %}" class="donthave"> Don't have an account?</a>
