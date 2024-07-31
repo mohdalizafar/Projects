@@ -1,0 +1,24 @@
+{% extends 'api/base.html' %}
+
+{% block content %}
+
+<div class="col-md-3 offset-md-3" >
+
+<form method="POST" >
+
+    {% csrf_token %}
+    <br/>
+
+    {{ form.as_p }}
+    <input type="submit" value="Modify Record" class="btn btn-primary"/>
+
+
+
+
+</form>
+
+</div>
+
+
+
+{% endblock %}

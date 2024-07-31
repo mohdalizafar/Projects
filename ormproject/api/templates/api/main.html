@@ -1,0 +1,43 @@
+{% extends 'api/base.html' %}
+{% block content %}
+
+
+{% if user.is_authenticated %}
+    <h1 class="rtitle"> Records </h1><br/>
+<table class="table table-striped" id="ttable">
+    <thead>
+      <tr>
+        <th scope="col"> ID </th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">City</th>
+        <th scope="col">Phone</th>
+        <th scope="col"> Date created</th>
+      </tr>
+    </thead>
+    <tbody>
+        
+    {% if records %}
+        {% for record in  records %}
+            
+            <tr>
+                <td><a href="{% url 'record' record.id %}">{{ record.id }}</a></td>
+                <td>{{ record.First_Name }} {{ record.Last_Name }}</td>
+                <td>{{ record.Email }}</td>
+                <td>{{ record.City }}</td>
+                <td>{{ record.Phone }}</td>
+                <td>{{ record.created_at }}</td>
+            </tr>
+            
+            
+        
+        {% endfor %}
+    {% endif %}
+
+      
+    </tbody>
+</table>
+
+{% endif %}
+
+{% endblock %}
