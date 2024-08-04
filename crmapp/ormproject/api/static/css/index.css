@@ -1,0 +1,48 @@
+
+
+.bgimage {
+        background-color: aqua;
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Full viewport height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+.body{
+    margin:0
+    
+}
+.formdiv{
+    background-color: rgb(73, 224, 224);
+    display: flex;
+    
+    background-color: white;
+    width: 20rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual appeal */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    gap:2rem;
+    line-height: 2em;
+    
+}
+
+
+.thline{
+    margin-top: 2rem !important;
+}
+
+#ttable{
+    width:100rem;
+    margin-left: 3.5rem;
+}
+.rtitle{
+    margin-left: 42rem;
+}

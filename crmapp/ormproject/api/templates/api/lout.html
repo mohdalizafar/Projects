@@ -1,0 +1,15 @@
+{% extends 'api/base.html' %}
+
+{% block content %}
+<div class="bgimage">
+    <div class="formdiv">
+        <div class="alert alert-success" role="alert">
+            You have been successfully logged out.
+        </div>
+        <a href="{% url 'login' %}" class="btn btn-primary">Log in again</a>
+        
+    </div>
+</div>
+
+
+(% endblock %)
