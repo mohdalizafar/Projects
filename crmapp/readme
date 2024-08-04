@@ -1,2 +1,3 @@
-Crm app created with django, restapi and sql
-still being developed
+This is a crm app that lets you add, delete and modify records.
+
+This app uses python, django, REST framework, html, css, bootstrap5 and sql
