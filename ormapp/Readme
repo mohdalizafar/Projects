@@ -1,0 +1,6 @@
+This app takes in employee's name and phone number and then after authorization directs the employee to a webpage containing the employee's digital signature.
+This is a very dynamic way for generating digital signatures for employees as developer doesn't have to specifically create a web page with the employee's
+digital signature. All he has to do is add employee in the database. Anytime any employee enters the correct credentials he/she will see the digital signature
+page with their name and phone number.
+
+I used python django, css, html and sql to create this.
