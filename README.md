@@ -2,6 +2,10 @@ I am a passionate computer science student with a deep interest in software deve
 I am constantly learning and exploring new technologies to expand my skill set.
 
 
+Below is description for all my projects
+
+
+
 newsaggregator is a web scraper that scrapes news websites and presents them in a unified way through an api. It uses python, sql, django framework, REST api, scrapy and BeautifulSoup library.
 
 kuwait library is a frontend project. It is the front end coding of the kuwait library homepage.
@@ -9,3 +13,8 @@ kuwait library is a frontend project. It is the front end coding of the kuwait l
 
 Crm app as name suggests is Customer Relations Management app. In this app you can add, delete and modify records. The records of the database will be presented on the screen infront of you, organised in a tabular format using css tables. You will only be able to see this if you are logged in. 
 This app uses python django framework and rest api for backend. CSS and HTML for frontend.
+
+ORM app takes in employee's name and phone number and then after authorization directs the employee to a webpage containing the employee's digital signature.
+This is a very dynamic way for generating digital signatures for employees as developer doesn't have to specifically create a web page with the employee's
+digital signature. All he has to do is add employee in the database. Anytime any employee enters the correct credentials he/she will see the digital signature
+page with their name and phone number. I used python django, css, html and sql to create this.
