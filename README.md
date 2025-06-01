@@ -6,7 +6,7 @@ Below is description for all my projects
 
 
 
-newsaggregator is a web scraper that scrapes news websites and presents them in a unified way through an api. It uses python, sql, django framework, REST api, scrapy and BeautifulSoup library.
+newsaggregator is a web scraper that scrapes news websites using Scrapy and BeautifulSoup. Then presents the sraped information infront of the user through an api. It uses python, sql, django framework, REST api, scrapy and BeautifulSoup library.
 
 kuwait library is a frontend project. It is the front end coding of the kuwait library homepage.
 
