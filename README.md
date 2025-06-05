@@ -8,7 +8,7 @@ Below is description for all my projects
 
 newsaggregator is a web scraper that scrapes news websites using Scrapy and BeautifulSoup. Then presents the sraped information infront of the user through an api. It uses python, sql, django framework, REST api, scrapy and BeautifulSoup library.
 
-kuwait library is a full stack website  that has both frontend as well as backend. The backend is used for user authentication and login. The frontend contains all the images and articles.
+kuwait library isthe frontend coding of kuwait national library
 
 
 Crm app as name suggests is Customer Relations Management app. In this app you can add, delete and modify records. The records of the database will be presented on the screen infront of you, organised in a tabular format using css tables. You will only be able to see this if you are logged in. 
